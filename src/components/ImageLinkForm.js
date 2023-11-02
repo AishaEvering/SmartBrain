@@ -1,22 +1,30 @@
 import React from "react";
-import DropZone from "./DropZone";
 import "../style/ImageLinkForm.css";
 
-const ImageLinkForm = () => {
+const ImageLinkForm = ({ onInputChange, onSubmit }) => {
   return (
-    <div>
-      <p className="neonText white f5">
-        {"This Magic Brain will detect faces in your pictures.  Give it a try."}
+    <div className="form">
+      <p className="white f5 msg center">
+        {
+          "Block the faces you don't want shown in your pictures. No face no case!"
+        }
       </p>
-      <div className="center">
-        <div className="form pa4 br3 shadow-5">
-          {/* <input className="f4 pa2 w-70 center" type="text" /> */}
-          <DropZone />
-          <button className="button w-30 grow f4 link ph3 pv2 ma2 dib white">
-            Detect
-          </button>
-        </div>
-      </div>
+      <hr className="pretty" />
+      <input
+        className="f4 w-100"
+        type="text"
+        placeholder="Enter image URL"
+        onChange={onInputChange}
+        onPaste={onInputChange}
+        required
+      />
+      <button
+        id="btnFindFaces"
+        onClick={onSubmit}
+        className="button w-20 grow f5 link ph3 pv2 ma1 dib"
+      >
+        Cover Faces
+      </button>
     </div>
   );
 };

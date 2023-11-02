@@ -1,12 +1,49 @@
 .form {
-    width: 700px;
-    background-color: #9d0352;
+    width: 90%;
+    background-color: #4ABDAC;
     opacity: 0.9;
-    background-image: radial-gradient(circle at center center, #ffffff, #9d0352), repeating-radial-gradient(circle at center center, #ffffff, #ffffff, 23px, transparent 46px, transparent 23px);
-    background-blend-mode: multiply;
+    margin-left: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    overflow: hidden;
+    filter: drop-shadow(8px 8px 10px #F78733);
+}
+
+.msg{
+    margin-bottom: 20px;
+}
+
+.form > input{
+    border-radius: 5px;
 }
 
 .button {
     opacity: 1;
-    background-color:#039D4E;
+    height: 40px;
+    border-radius: 10px;
+    background-color:#F7B733;
+    color: #fefefe;
+    border: none;
+    cursor: pointer;
+    margin-right: 0.25em;
+    margin-top: 0.5em;
+    float: right;
 }
+
+.picLocation{
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 2px;
+    width: 50%;
+    flex: 1;
+}
+
+.picLocation_btn {
+    margin-right: 10px;
+ } 
+
+ *:disabled {
+    background-color: dimgrey;
+    color: linen;
+    opacity: 1;
+  }

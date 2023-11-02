@@ -1,10 +1,17 @@
 import React from "react";
+import Logo from "./Logo";
+import "../style/Navigation.css";
 
 const Navigation = () => {
   return (
-    <nav style={{ display: "flex", justifyContent: "flex-end" }}>
-      <p className="f5 white link dim black underline pa3 pointer">Sign Out</p>
-    </nav>
+    <div className="nav">
+      <div>
+        <div className="login f5 white link dim black underline pointer">
+          Sign Out
+        </div>
+      </div>
+      <Logo />
+    </div>
   );
 };
 

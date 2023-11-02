@@ -1,31 +1,10 @@
-@import url('https://fonts.googleapis.com/css?family=Sacramento:400');
-
-.Tilt{
-    transform-style: preserve-3d;
-    transform: perspective(1000px);
-}
-
-.inner-element{  
-    transform: translateZ(100px) scale(0.8);
+.logo{  
+     transform: translateZ(10px) scale(0.8);
     border-radius: 20%;
-    filter: hue-rotate(180deg) drop-shadow(8px 8px 10px #7b7495);
+    filter: hue-rotate(180deg) drop-shadow(8px 8px 10px #Fc4A1A);
     flex: 1;
-    margin: 10px;
-    margin-right: 5px;
+    margin-left: 10px;
+    margin-right: 500px;
+    width: 50px;
+    height:"auto";  
 }
-
-.logo_title {
-     font-size: 2rem;
-     text-align: left;
-     flex: 1;
-     font-family: "Sacramento", sans-serif;
-     margin-top: 0px;
-     margin-left: 10px;
-     padding-top: 0px;
-  }  
-
-.logo_container{
-    display: flex;
-    width: 70%;
-}
-
