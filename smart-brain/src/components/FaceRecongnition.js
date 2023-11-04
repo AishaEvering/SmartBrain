@@ -7,21 +7,10 @@ const FaceRecongnition = ({ imgUrl, regions, onImageError }) => {
     div.style.opacity = div.style.opacity === "1" ? "0" : "1";
   };
 
-  const clearMasks = () => {
-    try {
-      let masks = document.querySelectorAll('[id^="mask_"]');
-      if (masks?.length > 0) {
-        masks.forEach((i) => (i.style.opacity = 0));
-      }
-    } catch (e) {}
-  };
-
-  clearMasks();
-
   if (imgUrl && regions) {
     return (
       <div className="center ma">
-        <div className="absolute mt5">
+        <div className="absolute mt3">
           <img
             id="inputImage"
             src={imgUrl}

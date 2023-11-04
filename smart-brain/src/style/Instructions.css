@@ -1,0 +1,10 @@
+.informBlock{
+    width: 90%;
+    background-color: #FC4A1A;
+    opacity: 0.9;
+    margin-top: 30px;
+    margin-left: 20px;
+    border-radius: 5px;
+    overflow: hidden;
+    filter: drop-shadow(8px 8px 10px #F78733);
+}

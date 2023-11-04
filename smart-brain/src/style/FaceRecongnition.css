@@ -21,16 +21,3 @@
 .inputImg{
     border-radius: 10px;
 }
-
-.maskedImg {
-    /* width:100%; */
-    /* height: 100%; */
-    opacity: 0.9;
-    padding: 10px;
-    border-radius: 5px;
-    overflow: hidden;  
-    margin-left: 20px;
-    /* width: 90%; */
-    background-color: #4ABDAC;
-    filter: drop-shadow(8px 8px 10px #F78733); 
-}
