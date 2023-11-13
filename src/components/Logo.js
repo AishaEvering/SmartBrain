@@ -15,6 +15,9 @@ const Logo = () => {
       style={{ height: 50, width: 420 }}
     >
       <img src={logo} className="logo" alt="logo" />
+      {/* <div className="text neonText">
+        <h1>Welcome to Face Block...</h1>
+      </div> */}
     </Tilt>
   );
 };

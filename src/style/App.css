@@ -1,0 +1,50 @@
+.App {
+  text-align: center;
+}
+
+.center{
+  display: flex;
+  justify-content: center;
+}
+
+hr.pretty {
+  border : 0;
+  height: 1px;
+  margin-bottom: 10px;
+  background-image: linear-gradient(to right, rgba(245, 241, 241, 0), rgba(249, 245, 245, 0.75), rgba(0, 0, 0, 0));
+}
+
+h1, h2 {
+  font-weight: 400;
+}
+
+.spinner{
+  z-index: 10;
+}
+
+.invalid-feedback{
+  color:rgb(214, 57, 4);
+  padding: 5px;
+}
+
+.valid-feedback{
+  padding: 5px;
+}
+
+.informBlock{
+  width: 90%;
+  background-color: #FC4A1A;
+  opacity: 0.9;
+  margin-top: 30px;
+  margin-left: 20px;
+  border-radius: 5px;
+  overflow: hidden;
+  filter: drop-shadow(8px 8px 10px #F78733);
+}
+
+.child{
+  display: inline-block;
+  vertical-align: middle;
+  padding: .75rem .75rem;
+}
+

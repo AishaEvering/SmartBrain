@@ -3,15 +3,14 @@
     display: flex;
     flex-wrap: wrap;
     cursor: pointer;
-    background: black;
-    border-radius: 10px;
+    border-radius: 50px;
     z-index: 1;
     cursor: pointer;
 }
 
 .bounding-box:hover {
     opacity: 0.5;
-    background: transparent;
+    background-color: transparent !important;
     outline: 0px dotted transparent;
     padding: 20px 20px;
     border: 3px dotted #F7B733;

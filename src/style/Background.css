@@ -1,9 +1,10 @@
 .ripple-background{
-  z-index: 1;  
+  z-index: -1;  
 }
 
 
 .circle{
+  z-index: -1;  
     position: absolute;
     border-radius: 50%;
     background: #FC4A1A;
